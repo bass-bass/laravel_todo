@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "training_XDebug on docker",
+      "type": "php",
+      "request": "launch",
+      "port": 9009,
+      "pathMappings": {
+        "/work":"${workspaceRoot}/apps/todo"
+      }
+    }
+  ]
+}
